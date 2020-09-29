@@ -1,0 +1,22 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transition($transition: .3s) {
+  -moz-transition: all $transition ease;
+  -o-transition: all $transition ease;
+  -webkit-transition: all $transition ease;
+  -ms-transition: all $transition ease;
+  transition: all $transition ease;
+}
+
+@mixin gradient-background() {
+  background: var(--main-color);
+  background: -moz-linear-gradient(90deg, var(--main-color) 0%, var(--main-dark-color) 36%, var(--main-dark-color) 61%, var(--main-color) 100%);
+  background: -webkit-linear-gradient(90deg, var(--main-color) 0%, var(--main-dark-color) 36%, var(--main-dark-color) 61%, var(--main-color) 100%);
+  background: linear-gradient(90deg, var(--main-color) 0%, var(--main-dark-color) 36%, var(--main-dark-color) 61%, var(--main-color) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14ce69", endColorstr="#229d5a", GradientType=1);
+}

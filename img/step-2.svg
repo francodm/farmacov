@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 110 110" style="enable-background:new 0 0 110 110;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00ADCA;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st3{fill:#6D6E70;}
+	.st4{clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st6{clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<rect class="st0" width="110" height="110"/>
+<g>
+	<path class="st1" d="M56.7,41.3c1.8,3.6,0.3,8-3.3,9.9c-3.6,1.8-8,0.3-9.9-3.3c-1.8-3.6-0.3-8,3.3-9.8
+		C50.5,36.2,54.9,37.7,56.7,41.3"/>
+	<rect x="0.6" y="0.6" class="st2" width="108.7" height="108.7"/>
+	<path class="st3" d="M53.7,39.6l-3.5-6.4l-3.4,6.2l0,0c-0.3,0.6-0.5,1.3-0.5,2c0,2.2,1.8,3.9,3.9,3.9c2.2,0,3.9-1.8,3.9-3.9
+		C54.1,40.7,53.9,40.1,53.7,39.6"/>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="0.6" y="1.9" width="108.7" height="107.5"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<path class="st4" d="M117.2,138.1l-32.6,16.3c-2.8,1.4-6.2,0.3-7.6-2.5L23.4,44.5c-1.4-2.8-0.3-6.2,2.5-7.6l32.6-16.3
+			c2.8-1.4,6.2-0.3,7.6,2.5l53.6,107.3C121.2,133.3,120,136.7,117.2,138.1z"/>
+		
+			<rect x="63.8" y="59.4" transform="matrix(0.8945 -0.4471 0.4471 0.8945 -33.7327 43.0439)" class="st5" width="21" height="67.1"/>
+		
+			<rect x="59.7" y="70.4" transform="matrix(0.8945 -0.4471 0.4471 0.8945 -27.4384 37.7939)" class="st6" width="13.2" height="13.2"/>
+		
+			<rect x="65.4" y="84.2" transform="matrix(0.8945 -0.4471 0.4471 0.8945 -31.9213 41.5335)" class="st6" width="13.2" height="8.3"/>
+		
+			<rect x="73.2" y="92.5" transform="matrix(0.8945 -0.447 0.447 0.8945 -38.0208 46.6171)" class="st6" width="13.2" height="22.7"/>
+	</g>
+	<polygon class="st3" points="50.1,30.1 51.5,27 51.5,23.7 49.2,23.7 48.7,26 	"/>
+	<path class="st2" d="M51.6,26.5l-0.8,4.4c-0.1,0.7-1.1,0.7-1.3,0l-0.3-1.6l-0.5-2.9v-2.9v-11h2.8V26.5z"/>
+</g>
+</svg>
