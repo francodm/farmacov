@@ -39,8 +39,8 @@
 </head>
 
 <body class="overflow-x-hidden">
-  <header id="main-header" class="fixed">
-    <div class="container mx-auto flex justify-between items-center py-6 px-5 lg:py-12 lg:px-0">
+  <header id="main-header" class="fixed mt-10">
+    <div class="container mx-auto flex justify-between items-center pb-6 pt-3 px-5 lg:pb-16 lg:pt-8 lg:px-0">
       <a id='logo-link' href="index.html">
         <img id="logo" src="img/logo.svg" alt="Logo FarmaCov" class="w-24 lg:w-32">
       </a>
@@ -58,10 +58,12 @@
         <img id="close-menu" src="img/icons/close.svg" alt="Cerrar menu" class="w-10 lg:hidden absolute">
         <div class="lg:hidden uppercase font-light text-base mb-3">Links</div>
         <a href="#how" class="mr-20">cómo funciona</a>
+        <a href="#info" class="mr-20">info del test</a>
+        <a href="#faq" class="mr-20">preguntas frecuentes</a>
         <a href="#contact">contacto</a>
         <div class="quick-contact lg:hidden pt-8 mt-6 border-t border-shm border-solid">
-          <a href="mailto:federico.carrone@farmacov.com" class="mb-4 block text-white">federico.carrone@farmacov.com</a>
-          <div class="font-normal mb-1 text-white">Castillo 1336, Palermo</div>
+          <a href="mailto:franco.dimauro@farmacov.com" class="mb-4 block text-white">franco.dimauro@farmacov.com</a>
+          <div class="font-normal mb-1 text-white">Av. Piedra Buena 3253, Villa Lugano</div>
           <div class="font-normal mb-1 text-white">Ciudad Autónoma de Buenos Aires</div>
           <div class="font-normal mb-1 text-white">Argentina</div>
         </div>
@@ -70,7 +72,22 @@
   </header>
   <main>
     <section id="landing" class="">
-      <div class="container flex flex-col justify-between mx-auto mt-4 lg:mt-0">
+      <div class="absolute top-0 bg-white w-full">
+        <ul class="flex items-center justify-end px-5 py-2">
+          <li>
+            <a href="https://farmacoop.org" target="_blank" class="flex items-center text-xs">
+              <img src="img/farmacoop-iso.svg" alt="Farmacoop" class="w-5 h-5 mr-1">
+              Farmacoop
+            </a>
+          </li>
+          <li class="ml-5">
+            <a href="#" target="_blank" class="flex items-center text-xs">
+              Bamboo Biotech
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="relative container flex flex-col justify-between mx-auto mt-6 lg:mt-0">
         <div class="main flex grid px-5 lg:px-0">
           <div class="fade-up text-gray-900">
             <div class="uppercase tracking-mega text-sm text-gray-500 md:text-sm">Nuevo lanzamiento</div>
@@ -103,6 +120,8 @@
             <img src="img/bb.png" alt="Bamboo Biotech" class="h-12 ml-10">
           </div>
         </div>
+        <img src="img/ind-argentina.svg" alt="Industria Argentina"
+          class="absolute right-0 bottom-0 w-16 mr-5 mb-2 lg:mb-8 lg:mr-8">
       </div>
     </section>
     <section>
@@ -112,15 +131,15 @@
         <img src="img/bb.png" alt="Bamboo Biotech" class="h-20 mt-6">
       </div>
     </section>
-    <section id="how" class="py-20 lg:py-32 lg:mb-20 bg-white">
+    <section id="how" class="py-20 mb-20 lg:py-32 lg:mb-20 bg-white">
       <div class="container lg:mx-auto px-5 lg:px-0">
-        <div class="uppercase font-light mb-6 text-center text-gray-500">Cómo funciona</div>
-        <div class="text-center max-w-5xl mx-auto text-xl md:text-3xl font-thin pb-6">
+        <div class="font-bold mb-6 text-center text-2xl text-fc-gray">Cómo funciona</div>
+        <div class="text-center max-w-5xl mx-auto text-xl md:text-xl font-thin pb-6">
           Obtené los resultados del test en 4 pasos:
         </div>
         <div class="steps grid grid-cols-1 justify-center lg:grid-cols-4 gap-12 max-w-5xl mt-10 mx-auto">
           <div class="step flex flex-col items-center">
-            <img src="img/step-1.svg" alt="Paso 1">
+            <img src="img/step-1.svg" alt="Paso 1" class="">
             <div class="mt-3 font-light">Tomar muestra de sangre.</div>
           </div>
           <div class="step flex flex-col items-center">
@@ -138,21 +157,60 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="pb-20 md:py-20">
+    <section id="info" class="bg-fc-gray py-20 lg:py-32 lg:mb-20">
+      <div class="container lg:mx-auto px-5 lg:px-0">
+        <div class="font-bold mb-6 text-center text-2xl text-fc-gray">Info del Test</div>
+        <div class="text-center max-w-5xl mx-auto text-xl md:text-xl font-thin pb-6">
+          FarmaCov es un test de detección rápida y efectiva para el control del COVID-19.
+        </div>
+        <div class="list mt-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="bg-white flex items-center rounded-lg py-6 pl-16 pr-8">
+            Es un método rápido y sencillo aplicable en puntos de atención primario point of care.
+          </div>
+          <div class="bg-white flex items-center rounded-lg py-6 pl-16 pr-8">
+            Detecta anticuerpos IgG/IgM resultantes de la exposición a SARS-CoV-2.
+          </div>
+          <div class="bg-white flex items-center rounded-lg py-6 pl-16 pr-8">
+            Puede ser empleado para determinar si alguien fue previamente infectado o si se encuentra cursando una
+            infección.
+          </div>
+          <div class="bg-white flex items-center rounded-lg py-6 pl-16 pr-8">
+            Posee un tiempo de respuesta: 10-15 minutos en brindar un resultado positivo o negativo.
+          </div>
+          <div class="bg-white flex items-center rounded-lg py-6 pl-16 pr-8">
+            Destinado a la detección cualitativa de anticuerpos IgG/IgM generados por exposición al nuevo Coronavirus
+            2019 (SARS-CoV2).
+          </div>
+          <div class="bg-white flex items-center rounded-lg py-6 pl-16 pr-8">
+            Puede ser utilizado empleando cono muestra una gota de suero, plasma o sangre de punción digital.
+          </div>
+          <div class="bg-white flex items-center rounded-lg py-6 pl-16 pr-8">
+            Puede ser utilizado como indicador de detección suplementaria para los resultados sospechosos obtenidos por
+            qRT-
+            PCR.
+          </div>
+          <div class="bg-white flex items-center rounded-lg py-6 pl-16 pr-8">
+            Los resultados obtenidos por el uso de FarmaCoV Test pueden ser empleados como referencia clínica.
+          </div>
+        </div>
+        <img src="img/ind-argentina-g.svg" alt="Industria Argentina" class="mx-auto w-16 mt-20">
+      </div>
+    </section>
+    <section id="contact" class="bg-white pb-20 md:pt-20 md:pb-32">
       <div class="container mx-auto px-5 pt-16 lg:pt-0 lg:px-24">
         <div id="contact-list" class="grid grid-cols-1 justify-between items-start">
           <div>
             <div class="image-container shadow-fc">
               <img src="img/icons/mail.svg" alt="Ícono email">
             </div>
-            <div class="text mt-6 font-bold">federico.carrone@farmacov.com</div>
+            <div class="text mt-6 font-bold">franco.dimauro@farmacov.com</div>
           </div>
         </div>
         <div class="title w-line l-bottom pt-24">Comunicate con nosotros. Estamos disponibles
           ante cualquier consulta</div>
       </div>
     </section>
-    <footer class="px-5 lg:px-32 pt-12 lg:pt-20 pb-8 lg:mt-12">
+    <footer class="px-5 lg:px-32 pt-12 lg:pt-20 pb-8">
       <div class="flex flex-wrap justify-between">
         <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-auto md:px-8 lg:px-2">
           <img id='footer-logo' src="img/logo-w.svg" alt="FarmaCov" class="w-32">
@@ -164,7 +222,7 @@
         </div>
         <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-auto md:px-8 lg:px-2">
           <div class="text-base lg:text-xl font-bold mb-6">Contacto</div>
-          <div class="lg:text-base"><a href="mailto:federico.carrone@farmacov.com">federico.carrone@farmacov.com</a>
+          <div class="lg:text-base"><a href="mailto:franco.dimauro@farmacov.com">franco.dimauro@farmacov.com</a>
           </div>
         </div>
         <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-auto md:px-8 lg:px-2">
@@ -177,12 +235,11 @@
       <div class="text-center">2020. FarmaCov</div>
     </footer>
   </main>
-
   <script src="js/vendor/glide.min.js"></script>
   <script src="js/vendor/smooth-scroll.min.js"></script>
   <script src="js/vendor/smooth-scroll.polyfills.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/scrollTrigger.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
