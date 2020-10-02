@@ -1,31 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 110 110" style="enable-background:new 0 0 110 110;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 110 110"
+   style="enable-background:new 0 0 110 110;"
+   xml:space="preserve"
+   sodipodi:docname="step-4.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata37"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs35" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1007"
+   id="namedview33"
+   showgrid="false"
+   inkscape:zoom="7.4047189"
+   inkscape:cx="23.686151"
+   inkscape:cy="22.638238"
+   inkscape:window-x="0"
+   inkscape:window-y="39"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="text838" />
+<style
+   type="text/css"
+   id="style2">
 	.st0{fill:#00ADCA;}
 	.st1{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;}
 	.st3{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
 	.st4{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
-<rect class="st0" width="110" height="110"/>
-<g>
-	<path class="st1" d="M55,91.1c-17.2,0-31.2-14-31.2-31.2c0-17.2,14-31.2,31.2-31.2c17.2,0,31.2,14,31.2,31.2
-		C86.2,77.1,72.2,91.1,55,91.1z"/>
-	<polygon class="st2" points="50.9,65.2 48.8,65.2 48.8,54.7 46.2,54.7 46.2,53.1 50.9,52.7 	"/>
-	<path class="st2" d="M63.9,60.4c0,1.6-0.4,2.9-1.1,3.7c-0.7,0.9-1.7,1.3-3,1.3c-1.3,0-2.3-0.4-3-1.3c-0.7-0.9-1.1-2.1-1.1-3.7v-2.9
-		c0-1.6,0.4-2.9,1.1-3.7c0.7-0.9,1.7-1.3,3-1.3c1.3,0,2.3,0.4,3,1.3c0.7,0.9,1.1,2.1,1.1,3.7V60.4z M61.8,57.2c0-1-0.2-1.8-0.5-2.3
-		c-0.3-0.5-0.8-0.7-1.5-0.7c-0.7,0-1.2,0.2-1.5,0.7c-0.3,0.5-0.5,1.3-0.5,2.3v3.5c0,1,0.2,1.8,0.5,2.3c0.3,0.5,0.9,0.7,1.5,0.7
-		s1.2-0.2,1.5-0.7c0.3-0.5,0.5-1.3,0.5-2.3V57.2z"/>
-	<polygon class="st2" points="67.8,53.4 66.4,56.5 65.4,56.5 65.9,53.5 65.9,51.8 67.8,51.8 	"/>
-	<rect x="50.8" y="23.6" class="st2" width="8.1" height="5.7"/>
-	<rect x="49.1" y="20" class="st2" width="11.4" height="5.7"/>
-	<rect x="0.6" y="0.6" class="st3" width="108.7" height="108.7"/>
-	<line class="st3" x1="55" y1="29.3" x2="55" y2="32.9"/>
-	<line class="st3" x1="55" y1="87.5" x2="55" y2="91.1"/>
-	<line class="st3" x1="85.9" y1="60.2" x2="82.3" y2="60.2"/>
-	<line class="st3" x1="27.7" y1="60.2" x2="24.1" y2="60.2"/>
-	<path class="st4" d="M56.7,37.3c7.8,0.6,14.5,5.1,18.1,11.6"/>
+<rect
+   class="st0"
+   width="110"
+   height="110"
+   id="rect4" />
+<g
+   id="g30">
+	<path
+   class="st1"
+   d="M55,91.1c-17.2,0-31.2-14-31.2-31.2c0-17.2,14-31.2,31.2-31.2c17.2,0,31.2,14,31.2,31.2   C86.2,77.1,72.2,91.1,55,91.1z"
+   id="path6" />
+	<polygon
+   class="st2"
+   points="50.9,65.2 48.8,65.2 48.8,54.7 46.2,54.7 46.2,53.1 50.9,52.7  "
+   id="polygon8" />
+	<path
+   class="st2"
+   d="M63.9,60.4c0,1.6-0.4,2.9-1.1,3.7c-0.7,0.9-1.7,1.3-3,1.3c-1.3,0-2.3-0.4-3-1.3c-0.7-0.9-1.1-2.1-1.1-3.7v-2.9   c0-1.6,0.4-2.9,1.1-3.7c0.7-0.9,1.7-1.3,3-1.3c1.3,0,2.3,0.4,3,1.3c0.7,0.9,1.1,2.1,1.1,3.7V60.4z M61.8,57.2c0-1-0.2-1.8-0.5-2.3   c-0.3-0.5-0.8-0.7-1.5-0.7c-0.7,0-1.2,0.2-1.5,0.7c-0.3,0.5-0.5,1.3-0.5,2.3v3.5c0,1,0.2,1.8,0.5,2.3c0.3,0.5,0.9,0.7,1.5,0.7   s1.2-0.2,1.5-0.7c0.3-0.5,0.5-1.3,0.5-2.3V57.2z"
+   id="path10" />
+	<polygon
+   class="st2"
+   points="67.8,53.4 66.4,56.5 65.4,56.5 65.9,53.5 65.9,51.8 67.8,51.8  "
+   id="polygon12" />
+	<rect
+   x="50.8"
+   y="23.6"
+   class="st2"
+   width="8.1"
+   height="5.7"
+   id="rect14" />
+	<rect
+   x="49.1"
+   y="20"
+   class="st2"
+   width="11.4"
+   height="5.7"
+   id="rect16" />
+	<rect
+   x="0.6"
+   y="0.6"
+   class="st3"
+   width="108.7"
+   height="108.7"
+   id="rect18" />
+	<line
+   class="st3"
+   x1="55"
+   y1="29.3"
+   x2="55"
+   y2="32.9"
+   id="line20" />
+	<line
+   class="st3"
+   x1="55"
+   y1="87.5"
+   x2="55"
+   y2="91.1"
+   id="line22" />
+	<line
+   class="st3"
+   x1="85.9"
+   y1="60.2"
+   x2="82.3"
+   y2="60.2"
+   id="line24" />
+	<line
+   class="st3"
+   x1="27.7"
+   y1="60.2"
+   x2="24.1"
+   y2="60.2"
+   id="line26" />
+	<path
+   class="st4"
+   d="M56.7,37.3c7.8,0.6,14.5,5.1,18.1,11.6"
+   id="path28" />
 </g>
-</svg>
+<g
+   aria-label="4"
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.55137712"
+   id="text838"><path
+     d="m 10.20105,96.56321 v -1.536461 l 4.526042,-7.151042 h 1.28125 v 2.1875 h -0.78125 l -3.046875,4.828125 v 0.08333 h 6.317708 v 1.588545 z m 5.088542,1.97916 v -2.44791 l 0.02083,-0.687503 v -7.53125 h 1.822917 V 98.54237 Z"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.66666698px;font-family:Inter;-inkscape-font-specification:'Inter, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f9f9f9;fill-opacity:1;stroke-width:0.55137712"
+     id="path852"
+     inkscape:connector-curvature="0" /></g></svg>

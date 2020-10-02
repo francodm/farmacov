@@ -28,6 +28,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  new Glide(".glide", {
+    type: "carousel",
+    startAt: 0,
+    perView: 1,
+    autoplay: 3000,
+    animationDuration: 1000,
+    hoverpause: true,
+  }).mount();
+
   bindAnimations();
 });
 
@@ -41,18 +50,31 @@ function bindAnimations() {
     delay: 0.2,
   });
 
+  gsap.fromTo(document.querySelectorAll("nav a"), { autoAlpha: 0, y: 30 }, { duration: 0.5, stagger: 0.2, autoAlpha: 1, y: 0, ease: "back.out(1.3)" });
+
   const stepsBlock = document.querySelector(".steps");
   var steps = stepsBlock.querySelectorAll(".step");
-
-  let tl2 = gsap
+  gsap
     .timeline({
       scrollTrigger: {
         trigger: stepsBlock,
-        start: "top 60%",
+        start: "top 80%",
         toggleActions: "play none complete none",
       },
     })
     .fromTo(steps, { autoAlpha: 0, y: 100 }, { duration: 1, stagger: 0.2, autoAlpha: 1, y: 0, ease: "back.out(1.3)" });
+
+  const infoBlock = document.querySelector("#info .list");
+  var infoItems = infoBlock.querySelectorAll(":scope > *");
+  gsap
+    .timeline({
+      scrollTrigger: {
+        trigger: infoBlock,
+        start: "top 80%",
+        toggleActions: "play none complete none",
+      },
+    })
+    .fromTo(infoItems, { autoAlpha: 0, y: 100 }, { duration: 1, stagger: 0.2, autoAlpha: 1, y: 0, ease: "back.out(1.1)" });
 }
 
 window.onscroll = function () {

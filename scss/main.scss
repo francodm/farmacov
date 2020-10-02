@@ -91,6 +91,10 @@ body>header {
   nav {
     z-index: 11;
 
+    a {
+      opacity: 0;
+    }
+
     #close-menu {
       top: 1.7rem;
       right: 1.2rem;
@@ -440,6 +444,10 @@ footer {
   }
 }
 
+p {
+  margin-bottom: 1.2rem;
+}
+
 @keyframes loop-line {
   0% {
     transform: scaleX(0);
@@ -543,12 +551,6 @@ footer {
     width: 100%;
   }
 
-  .glide__slides {
-    img {
-      border-radius: 2rem;
-    }
-  }
-
   .glide__arrow {
     border: none;
     box-shadow: none;
@@ -606,6 +608,10 @@ section {
   border-color: #39accf;
 }
 
+.filter-grayscale {
+  filter: grayscale(1);
+}
+
 #info .list {
   counter-reset: info;
 
@@ -624,7 +630,6 @@ section {
       opacity: .3;
     }
   }
-
 }
 
 @keyframes float {
