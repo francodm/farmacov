@@ -65,7 +65,7 @@ body > header {
     border-bottom: 2px solid #d5d5d5;
     margin: 0; }
     body > header.collapse .container {
-      padding: .5rem 1rem .5rem; }
+      padding: 0.5rem 1rem 0.5rem; }
     body > header.collapse #logo {
       width: 6rem; }
   @media (min-width: 1024px) {
@@ -129,9 +129,9 @@ html.menu-opened {
   @media (min-width: 1024px) {
     #landing {
       background-size: 100%;
-      padding-top: calc(var(--desktop-header-height) + 7vh); } }
+      padding-top: calc(var(--desktop-header-height) + 9vh); } }
   #landing .container {
-    min-height: calc(var(--vh, 1vh) * 99 - var(--desktop-header-height) - 7vh); }
+    min-height: calc(var(--vh, 1vh) * 99 - var(--desktop-header-height) - 9vh); }
   @media (min-width: 1024px) {
     #landing .main {
       grid-template-columns: 30rem minmax(0, 1fr);
@@ -166,9 +166,7 @@ html.menu-opened {
     left: 60%;
     top: 80%;
     text-align: right;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     font-size: 1.1rem; }
     #landing .data,
     #landing .data * {
@@ -280,7 +278,7 @@ footer {
   background: var(--main-color); }
   @media (min-width: 1024px) {
     footer #footer-logo {
-      width: 12rem;
+      width: 11rem;
       margin-top: -1rem; } }
   footer * {
     color: #fff; }
@@ -476,7 +474,7 @@ section {
       content: counter(info);
       font-size: 1.5rem;
       font-weight: 600;
-      opacity: .3; }
+      opacity: 0.3; }
 
 @keyframes float {
   0% {

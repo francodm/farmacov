@@ -13,7 +13,7 @@ body * {
   color: #555555;
 }
 
-body>header {
+body > header {
   top: 0;
   z-index: 10;
   width: 100vw;
@@ -32,7 +32,6 @@ body>header {
   }
 
   @media (min-width: 1024px) {
-
     .container,
     a {
       @include transition;
@@ -50,7 +49,7 @@ body>header {
     margin: 0;
 
     .container {
-      padding: .5rem 1rem .5rem;
+      padding: 0.5rem 1rem 0.5rem;
     }
 
     #logo {
@@ -115,7 +114,7 @@ html.menu-opened {
     padding: 6rem 2rem;
     @include transition;
 
-    &>a {
+    & > a {
       margin: 0.5rem 0;
       font-size: 1.5rem;
       color: #fff;
@@ -141,11 +140,11 @@ html.menu-opened {
 
   @media (min-width: 1024px) {
     background-size: 100%;
-    padding-top: calc(var(--desktop-header-height) + 7vh);
+    padding-top: calc(var(--desktop-header-height) + 9vh);
   }
 
   .container {
-    min-height: calc(var(--vh, 1vh) * 99 - var(--desktop-header-height) - 7vh);
+    min-height: calc(var(--vh, 1vh) * 99 - var(--desktop-header-height) - 9vh);
   }
 
   .main {
@@ -194,15 +193,12 @@ html.menu-opened {
     left: 60%;
     top: 80%;
     text-align: right;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     font-size: 1.1rem;
 
     &,
     * {
       color: var(--main-dark-color);
-
     }
   }
 
@@ -216,7 +212,6 @@ html.menu-opened {
     }
   }
 }
-
 
 .tracking-mega {
   letter-spacing: 0.18rem;
@@ -262,11 +257,11 @@ html.menu-opened {
   .md\:grid-cols-products-reversed {
     grid-template-columns: 1fr 0.5fr;
 
-    &> :nth-child(1) {
+    & > :nth-child(1) {
       order: 2;
     }
 
-    &> :nth-child(2) {
+    & > :nth-child(2) {
       order: 1;
     }
   }
@@ -293,7 +288,7 @@ html.menu-opened {
   @media (min-width: 1024px) {
     height: 45rem;
 
-    .block>* {
+    .block > * {
       padding-left: 4rem;
     }
 
@@ -333,7 +328,7 @@ html.menu-opened {
 
 #contact {
   #contact-list {
-    &>div {
+    & > div {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -366,7 +361,7 @@ footer {
 
   #footer-logo {
     @media (min-width: 1024px) {
-      width: 12rem;
+      width: 11rem;
       margin-top: -1rem;
     }
   }
@@ -470,7 +465,7 @@ p {
 }
 
 #donations .block,
-#contact #contact-list>div {
+#contact #contact-list > div {
   @include transition;
 
   @media (hover: hover) {
@@ -586,14 +581,14 @@ section {
   line-height: 1.75;
 }
 
-#product-icons>div>div {
+#product-icons > div > div {
   grid-template-rows: minmax(0, 0.8fr) minmax(0, 1.1fr);
 
   img {
     @include transition;
   }
 
-  &:hover>img {
+  &:hover > img {
     transform: translateY(-0.5rem);
   }
 }
@@ -609,7 +604,7 @@ section {
 #info .list {
   counter-reset: info;
 
-  &>div {
+  & > div {
     position: relative;
 
     &::before {
@@ -621,7 +616,7 @@ section {
       content: counter(info);
       font-size: 1.5rem;
       font-weight: 600;
-      opacity: .3;
+      opacity: 0.3;
     }
   }
 }
